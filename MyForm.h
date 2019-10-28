@@ -218,7 +218,7 @@ namespace Laboratorio4JavierMorales1210219 {
 
 		}
 #pragma endregion
-		StreamReader^ lector = gcnew StreamReader("..//Laboratorio_4_Javier_Morales_1210219//pokemones.txt");
+		StreamReader^ lector = gcnew StreamReader("pokemones.txt");
 		String^ texto;
 		String^ t;
 		Stopwatch^ S = gcnew Stopwatch();
